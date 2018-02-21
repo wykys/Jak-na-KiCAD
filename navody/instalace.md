@@ -33,7 +33,14 @@ sudo apt install kicad-library-templates
 ## MS Windows
 Uživatelé windows si musí ručně [stáhnout](http://downloads.kicad-pcb.org/windows/nightly/) instalační soubor a instalaci provést obvyklým způsobem. Upozorňuji, že je vhodné mít __aktuální verzi__. Bohužel ve Windows není pro KiCAD žádný aktualizační systém, z toho důvodu je třeba při každém vydání nové verze (což je u nočních buildů každý den) starou instalaci odstranit a nahradit novou.
 
-Po instalaci je vhodné stáhnout oficiální [knihovny](http://kicad-pcb.org/libraries/download/) pro aktuální verzi, v našem případě __v5__. I zde uživatelé Windows zapláčou, jelikož knihovny jsou jednou týdně sestavovány a aktuální změny se musí opět provést ručně. Na stránkách knihoven se dá proklikat až k odkazům ke stažení `zip` archivům: [symbolů](https://github.com/KiCad/kicad-symbols/archive/master.zip), [footprintů](https://github.com/KiCad/kicad-footprints/archive/master.zip) a [3D modelů](https://github.com/kicad/kicad-packages3d/archive/master.zip).
+Po instalaci je vhodné stáhnout oficiální [knihovny](http://kicad-pcb.org/libraries/download/) pro aktuální verzi, v našem případě __v5__. I zde uživatelé Windows zapláčou, jelikož knihovny jsou jednou týdně sestavovány a aktuální změny se musí opět provést ručně. Na stránkách knihoven se dá proklikat až k odkazům ke stažení `zip` archivům: [symbolů](https://github.com/KiCad/kicad-symbols/archive/master.zip), [footprintů](https://github.com/KiCad/kicad-footprints/archive/master.zip) a [3D modelů](https://github.com/kicad/kicad-packages3d/archive/master.zip). Ztařené soubory je vhodné rozbalit v rootu disku například do vhodně pojmenované složky.
+```bash
+kicad              # hlavní složka pro knihovny například v C:
+├── library        # sem rozbalit schématické značky
+├── modules        # zde rozbalit footprinty
+│   └── packages3d # Kicad zvyklost je mít v modulech složku pro 3D modely
+└── template       # sem přijsou šablony
+```
 
 Uživatelé [gitu](https://git-scm.com/) nezoufejte, vy si můžete knihovny naklonovat a jen __pullovat__ změny.
 
