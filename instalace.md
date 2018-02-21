@@ -4,7 +4,7 @@
 
 ## GNU/Linux
 
-Uživatelé Linuxu mají život jednodušší, stačí si přidat `ppa` repozitář a nainstalovat potřebné balíčky. Pro jistotu jsi doporučuji ověřid adresu řepozitáře a názvy potřebných balíčků na stránkách [KiCADu](http://kicad-pcb.org/download/ubuntu/), protože jse modou od napsání návodu změnit. Uvedený postup je platný pro distribuce založené na Ubuntu.
+Uživatelé Linuxu mají život jednodušší, stačí si přidat `ppa` repozitář a nainstalovat potřebné balíčky. Pro jistotu jsi doporučuji ověřit adresu řepozitáře a názvy potřebných balíčků na stránkách [KiCADu](http://kicad-pcb.org/download/ubuntu/), protože se mohou od napsání návodu změnit. Uvedený postup je platný pro distribuce založené na Ubuntu.
 ```bash
 # přidání repozitáře
 sudo add-apt-repository --yes ppa:js-reynaud/ppa-kicad
@@ -20,7 +20,7 @@ Pokud byste rádi používali KiCAD v češtině, tak si můžete ještě nainst
 sudo apt install kicad-locale-cs
 ```
 
-Nakonec je vhodné nainstalovat oficiální kicad knihovny.
+Nakonec je vhodné nainstalovat oficiální KiCAD knihovny.
 ```bash
 # instalace knihovny schématických značek
 sudo apt install kicad-library-symbols
