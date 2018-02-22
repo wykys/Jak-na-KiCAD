@@ -16,14 +16,14 @@ __Varování:__ Noční sestavení se rychle vyvíjí, překlady či jiné detai
     * popis základních funkcí
     * nakreslení jednoduchého obvodu
     * základní __DRC__
-    * vygenerování `NET` listu
+    * vygenerování `netlistu`
 - [ ] __editory knihoven__
     * vytvoření vlastní značky
     * vytvožení vlastního footprintu
 - [ ] __asociace footprintů___
     * ukázka oficiální knihovny
 - [ ] __editor plošných spojů__
-    * import `NET` listu
+    * import `netlistu`
     * základní nastavení
     * základní ovládání
     * interaktivní routování
@@ -35,11 +35,11 @@ __Varování:__ Noční sestavení se rychle vyvíjí, překlady či jiné detai
     * pasta
     * lepidlo
 
-## Návrhy na pokročilenší věci
+## Návrhy na pokročilejších věci
 - [ ] __trimování délek spojů__
-- [ ] __hierarchický návr__
+- [ ] __hierarchický návrh__
 - [ ] __[KLC](http://kicad-pcb.org/libraries/klc/)__
-- [ ] __automatizovaná kontola vlastních symbolů a footprintů_____
+- [ ] __automatizovaná kontrola vlastních symbolů a footprintů__
 - [ ] __tvorba loga v masce či mědi případně antény__
 - [ ] __hromadné úpravy schématických značek v textovém editoru__
 - [ ] __verzování__
