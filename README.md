@@ -35,7 +35,7 @@ __Varování:__ Noční sestavení se rychle vyvíjí, překlady či jiné detai
     * pasta
     * lepidlo
 
-## Návrhy na pokročilejších věci
+## Návrhy na pokročilejší věci
 - [ ] __trimování délek spojů__
 - [ ] __hierarchický návrh__
 - [ ] __[KLC](http://kicad-pcb.org/libraries/klc/)__
@@ -46,4 +46,4 @@ __Varování:__ Noční sestavení se rychle vyvíjí, překlady či jiné detai
 - [ ] __spolupráce KiCADu a Ngspice__
 
 
-Zatím je to pracovní návrh, můžeme se odmluvit co tam dát či ne a čemu věnovat jak dlouhý čas.
+Zatím je to pracovní návrh, můžeme se domluvit co tam dát či ne a čemu věnovat jak dlouhý čas.
