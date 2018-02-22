@@ -1,8 +1,8 @@
-# Instalace [KiCADu](http://kicad-pcb.org/)
+# Instalace [KiCAD](http://kicad-pcb.org/)u
 Školení předpokládá, že máte nainstalováno __aktuální noční sestavení__ a stažené knihovny.
 
 ## GNU/Linux
-Uživatelé Linuxu mají život jednodušší, stačí si přidat `ppa` repozitář a nainstalovat potřebné balíčky. Pro jistotu jsi doporučuji ověřit adresu řepozitáře a názvy potřebných balíčků na stránkách [KiCADu](http://kicad-pcb.org/download/ubuntu/), protože se mohou od napsání návodu změnit. Uvedený postup je platný pro distribuce založené na Ubuntu.
+Uživatelé Linuxu mají život jednodušší, stačí si přidat `ppa` repozitář a nainstalovat potřebné balíčky. Pro jistotu jsi doporučuji ověřit adresu řepozitáře a názvy potřebných balíčků na stránkách [KiCAD](http://kicad-pcb.org/download/ubuntu/)u, protože se mohou od napsání návodu změnit. Uvedený postup je platný pro distribuce založené na Ubuntu.
 ```bash
 # přidání repozitáře
 sudo add-apt-repository --yes ppa:js-reynaud/ppa-kicad
