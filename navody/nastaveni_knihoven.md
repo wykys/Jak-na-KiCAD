@@ -30,13 +30,15 @@ Abychom mohli nastavit knihovny je třeba založit nový projekt: `soubor > New 
 - [ ] `*.kicad_pcb` - soubor plošného spoje
 Dvojlklikem na schématický soubor, nebo kliknutím na ikonku schématu, či klávesovou zkratkou `Ctrl+E` spustíme program __eeschema__.
 
-Je možné že při prvním spuštění na nás vyskočí "nějaké dialogové okno", pokud tato situace nastane, tak jej zavřeme a pokračujeme.
+Je možné, že při prvním spuštění na nás vyskočí "nějaké dialogové okno", pokud tato situace nastane, tak jej zavřeme a pokračujeme.
 
 KiCADu 5 se pokouší sjednotit správu knihoven pro schématické značky a footprinty pomocí tabulek knihoven. Na Linuxu jsou umístěny `$HOME/.config/kicad`. Při prvním spuštění je třeba tyto tabulky vytvořit. Pomosí těchto tabulek KiCAD knihovny hledá.
 
 Poznámka stranou: kromě globálních tabulek které právě vytváříme se dají vytvářet i projektové tabulky pro jednotlivé projekty, které často využívají proměnné `KIPRJMOD`, která ukazuje na umístění aktuálního projektu.
 
-Ve schématickém editoru: `Preferences > Manage Symbol Library Tables...`
-Označíme všechny knihovny, které jsou ve formuláři a stiskneme `Remove Library`.
+Ve schématickém editoru: `Preferences > Manage Symbol Library Tables...`. Ujistíme se, že se nacházíme v kartě __Global Libraries__. Označíme všechny knihovny, které jsou ve formuláři a stiskneme `Remove Library`.
 
-Poté stiskneme `Browse Libraries...` půjdeme do složky kde jsou uložené schématické značky a přidáme všechny `*.lib`. Pokud jsme postupovali správně, tak Můžeme pozorovat, že v cestách přidaných knihoven se použili proměnné prostředí. Poté stiskneme `Budiž`. Nakonec si můžeme ověřit že vše funguje klávesovou skratkou `A`, ta nám otevře formulář pro vkládání symbolů.
+Poté stiskneme `Browse Libraries...` půjdeme do složky kde jsou uložené schématické značky a přidáme všechny `*.lib`. Pokud jsme postupovali správně, tak Můžeme pozorovat, že v cestách přidaných knihoven se použili proměnné prostředí. Poté stiskneme `Budiž`. Nakonec si můžeme ověřit, že vše funguje klávesovou zkratkou `A`, ta nám otevře formulář pro vkládání symbolů. Editor schémat zavřeme.
+
+## Nastavení knihoven footprintů
+Otevřeme si editor plošných spojů, tedy program __pcbnew__ (dvojklik na `*.pcb_new`, nebo `Ctrl+P`). Postup bude obdobný jako u schématických knihoven. Tedy: `Preferences > Footprint Library Tables...`. A od teď postupuje jako u knihovny symbolů, jen s tím rozdílem, že přidáváme místo souborů `*.lib` složky `*.pretty`, které se nacházení ve složce `modules`. Po dokončení opět potvrdíme. Přidané knihovny si můžeme prohlédnout pomocí nástroje __Open footptint viewer__ na horní liště nástrojů.
