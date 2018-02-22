@@ -19,7 +19,7 @@ __Varování:__ Noční sestavení se rychle vyvíjí, překlady či jiné detai
     * vygenerování `netlistu`
 - [ ] __editory knihoven__
     * vytvoření vlastní značky
-    * vytvožení vlastního footprintu
+    * vytvoření vlastního footprintu
 - [ ] __asociace footprintů___
     * ukázka oficiální knihovny
 - [ ] __editor plošných spojů__
@@ -27,7 +27,7 @@ __Varování:__ Noční sestavení se rychle vyvíjí, překlady či jiné detai
     * základní nastavení
     * základní ovládání
     * interaktivní routování
-    * kontola layoutu
+    * kontrola layoutu
 - [ ] __generování výrobních data__
     * GERBER
     * EXCELON
