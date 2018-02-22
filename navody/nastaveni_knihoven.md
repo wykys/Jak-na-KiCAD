@@ -32,7 +32,7 @@ Dvojlklikem na schématický soubor, nebo kliknutím na ikonku schématu, či kl
 
 Je možné, že při prvním spuštění na nás vyskočí "nějaké dialogové okno", pokud tato situace nastane, tak jej zavřeme a pokračujeme.
 
-KiCADu 5 se pokouší sjednotit správu knihoven pro schématické značky a footprinty pomocí tabulek knihoven. Na Linuxu jsou umístěny `$HOME/.config/kicad`. Při prvním spuštění je třeba tyto tabulky vytvořit. Pomosí těchto tabulek KiCAD knihovny hledá.
+KiCADu 5 se pokouší sjednotit správu knihoven pro schématické značky a footprinty pomocí tabulek knihoven. Na Linuxu jsou umístěny `$HOME/.config/kicad`. Při prvním spuštění je třeba tyto tabulky vytvořit. Pomocí těchto tabulek KiCAD knihovny hledá.
 
 Poznámka stranou: kromě globálních tabulek které právě vytváříme se dají vytvářet i projektové tabulky pro jednotlivé projekty, které často využívají proměnné `KIPRJMOD`, která ukazuje na umístění aktuálního projektu.
 
