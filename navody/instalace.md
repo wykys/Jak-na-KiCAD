@@ -1,4 +1,4 @@
-# Instalace KiCADu
+# Instalace [KiCADu](http://kicad-pcb.org/)
 Školení předpokládá, že máte nainstalováno __aktuální noční sestavení__ a stažené knihovny.
 
 ## GNU/Linux
@@ -33,7 +33,7 @@ sudo apt install kicad-library-templates
 ## MS Windows
 Uživatelé windows si musí ručně [stáhnout](http://downloads.kicad-pcb.org/windows/nightly/) instalační soubor a instalaci provést obvyklým způsobem. Upozorňuji, že je vhodné mít __aktuální verzi__. Bohužel ve Windows není pro KiCAD žádný aktualizační systém, z toho důvodu je třeba při každém vydání nové verze (což je u nočních buildů každý den) starou instalaci odstranit a nahradit novou.
 
-Po instalaci je vhodné stáhnout oficiální [knihovny](http://kicad-pcb.org/libraries/download/) pro aktuální verzi, v našem případě __v5__. I zde uživatelé Windows zapláčou, jelikož knihovny jsou jednou týdně sestavovány a aktuální změny se musí opět provést ručně. Na stránkách knihoven se dá proklikat až k odkazům ke stažení `zip` archivům: [symbolů](https://github.com/KiCad/kicad-symbols/archive/master.zip), [footprintů](https://github.com/KiCad/kicad-footprints/archive/master.zip) a [3D modelů](https://github.com/kicad/kicad-packages3d/archive/master.zip). Ztařené soubory je vhodné rozbalit v rootu disku například do vhodně pojmenované složky.
+Po instalaci je vhodné stáhnout oficiální [knihovny](http://kicad-pcb.org/libraries/download/) pro aktuální verzi, v našem případě __v5__. I zde uživatelé Windows zapláčou, jelikož knihovny jsou jednou týdně sestavovány a aktuální změny se musí opět provést ručně. Na stránkách knihoven se dá proklikat až k odkazům ke stažení `zip` archivům: [symbolů](https://github.com/KiCad/kicad-symbols/archive/master.zip), [footprintů](https://github.com/KiCad/kicad-footprints/archive/master.zip) a [3D modelů](https://github.com/kicad/kicad-packages3d/archive/master.zip). Stažené soubory je vhodné rozbalit v rootu disku například do vhodně pojmenované složky.
 ```bash
 kicad              # hlavní složka pro knihovny například v C:
 ├── library        # sem rozbalit schématické značky
@@ -47,7 +47,7 @@ Uživatelé [gitu](https://git-scm.com/) nezoufejte, vy si můžete knihovny nak
 ## Ostatní OS
 Uživatelům ostatních operačních systémů mohu předat [odkaz](http://kicad-pcb.org/) na oficiální stránky a popřát jim hodně štěstí s instalací ;)
 
-## Pro uživatele gitu
+## Pro uživatele [gitu](https://git-scm.com/)
 KiCAD od v5 přechází na __nový systém knihoven__. Dílčí části byli rozděleny do samostatných repozitářů:
 - [ ] [kicad-symbols](https://github.com/KiCad/kicad-symbols)
 - [ ] [kicad-footprints](https://github.com/KiCad/kicad-footprints)
