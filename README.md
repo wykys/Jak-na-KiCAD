@@ -1,6 +1,8 @@
 # Jak na [KiCAD](http://kicad-pcb.org/)
 __Varování:__ Noční sestavení se rychle vyvíjí, překlady či jiné detaily nemusí přesně odpovídat!
 
+[DEMO1](https://github.com/wykys/kicad-demo1)
+
 ## Návody:
 - [ ] [instalace](https://github.com/wykys/Jak-na-KiCAD/blob/master/navody/instalace.md)
 - [ ] [nastavení knihoven](https://github.com/wykys/Jak-na-KiCAD/blob/master/navody/nastaveni_knihoven.md)
