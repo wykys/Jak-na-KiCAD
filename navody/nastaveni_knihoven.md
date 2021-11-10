@@ -1,4 +1,4 @@
-# Nastavení knihoven v [KiCAD](http://kicad-pcb.org/)u
+# Nastavení knihoven v [KiCAD](http://kicad.org/)u
 Jestli jste zvládli instalaci a máte i stažené knihovny (pokud používáte Linux knihovny se stáhnou přímo z repozitářů), tak nastal ten správný čas, abychom si ukázali, jak říci KiCADu, kde je hledat.
 
 ## Nastavení proměnných prostředí
