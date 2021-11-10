@@ -1,4 +1,4 @@
-# Jak na [KiCAD](http://kicad-pcb.org/)
+# Jak na [KiCAD](https://www.kicad.org/)
 __Varování:__ Noční sestavení se rychle vyvíjí, překlady či jiné detaily nemusí přesně odpovídat!
 
 [DEMO1](https://github.com/wykys/kicad-demo1)
@@ -40,7 +40,7 @@ __Varování:__ Noční sestavení se rychle vyvíjí, překlady či jiné detai
 ## Návrhy na pokročilejší věci
 - [ ] __trimování délek spojů__
 - [ ] __hierarchický návrh__
-- [ ] __[KLC](http://kicad-pcb.org/libraries/klc/)__
+- [ ] __[KLC](https://klc.kicad.org/)__
 - [ ] __automatizovaná kontrola vlastních symbolů a footprintů__
 - [ ] __tvorba loga v masce či mědi případně antény__
 - [ ] __hromadné úpravy schématických značek v textovém editoru__
